@@ -2,7 +2,7 @@ html, body, .page {
   height: auto;
   /* needed for proper layout */
   margin: 0px;
-  width: auto;
+  width: 100%;
 }
 
 body {
@@ -13,6 +13,8 @@ body {
 .page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-header {
@@ -32,8 +34,8 @@ body {
 .navwrap {
   display: flex;
   justify-content: space-between;
+  margin-left: -270px;
   width: 950px;
-  margin-left: -422px;
 }
 
 .name {
@@ -68,7 +70,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
-  margin-left: 270px;
+  margin-left: -270px;
   margin-bottom: 200px;
   flex-direction: row;
   width: 950px;
